@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 :root{
-    --isa:black;
-    --dudu:white;
-    --luka:rgb(218, 97, 42);
-    --ygor:blue;
+    --isa:#000000;
+    --dudu:#ffffff;
+    --luka:#da612a;
+    --ygor:#0000ff;
     
 } 
 
@@ -22,7 +22,7 @@
 
 body,
 html {
-    background-color: #18aaff;
+    background-color: #da8e2c;
     height: 100vh;
     width: 100vw;
 }
@@ -43,16 +43,17 @@ section#login {
     width: 250px;
     height: 515px;
     border-radius: 17px;
-    box-shadow: 0px 0px 10px #21203f;
+    box-shadow: 0px 0px 10px hsl(#be5828);
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
     transform: translate(-50%, -50%);
 }
 
+
 section#login>div#imagem {
     display: block;
-    background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+    background: rgb(238, 235, 207) url(/assets/destaque-do-free-fire.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
@@ -84,7 +85,7 @@ div.campo>span {
 }
 
 div.campo>input {
-    background-color: #c9a3f8;
+    background-color: #edf0df;
     font-size: 1em;
     padding: 3px;
     width: calc(100% - 44px);
@@ -96,7 +97,7 @@ div.campo>input {
 }
 
 div.campo>input:focus-within {
-    background-color: white;
+    background-color:  linear-gradient(to top, #da8e2c, #a19923 );
 }
 
 form>input[type=submit] {
@@ -112,9 +113,9 @@ form>input[type=submit] {
 }
 
 form>div.campo {
-    background-color: #4b3c5d;
+    background-color: #e2cd0f;
     display: block;
-    border: solid 2px #4b3c5d;
+    border: solid 2px #e2cd0f;
     width: 100%;
     height: 40px;
     border-radius: 7px;
@@ -123,7 +124,7 @@ form>div.campo {
 }
 
 form>input[type=submit]:hover {
-    background-color: #4b3c5d;
+    background-color: #7fe976;
 
 }
 
@@ -135,7 +136,7 @@ form>a.botao {
     height: 40%;
     padding-top: 7px;
     margin-top: 7px;
-    background-color: #c9a3f8;
+    background-color: #edf0df;
     color: rgb(0, 0, 0);
     border: 1px solid #21203f;
     border-radius: 3px;
@@ -144,7 +145,7 @@ form>a.botao {
 }
 
 form>a.botao:hover {
-    background-color: #4b3c5d;
+    background-color: #7fe976;
     color: white;
 }
 
@@ -153,10 +154,15 @@ form>a.botao>span {
 
 }
 
+#bv{
+    color: #edf0df;
+    font-size: 1.8em;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #159eed,#090929);
+        background-image: linear-gradient(to top,)
     }
 
     section#login {
@@ -168,7 +174,7 @@ form>a.botao>span {
         float: left;
         width: 30%;
         height: 100%;
-        background: #4b3c5d url(/assets/destaque_freefire_.jpg) no-repeat;
+        background: #4b3c5d url(/assets/destaque-do-free-fire.webp) no-repeat;
         background-size: cover;
         background-position: right bottom;
 
@@ -185,7 +191,8 @@ form>a.botao>span {
 
 @media screen and (min-width: 993px) {
     body {
-        background-image: linear-gradient(to top, #158ced, #090818);
+    section#login 
+        background-image: linear-gradient(to top, #da8e2c, #a19923 );
     }
 
     section#login {
