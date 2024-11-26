@@ -3,7 +3,7 @@
 :root{
     --isa:black;
     --dudu:white;
-    --luka:orange;
+    --luka:rgb(218, 97, 42);
     --ygor:blue;
     
 } 
@@ -22,7 +22,7 @@
 
 body,
 html {
-    background-color: #e7bfa5;
+    background-color: #18aaff;
     height: 100vh;
     width: 100vw;
 }
@@ -91,6 +91,7 @@ div.campo>input {
     height: 100%;
     border: 0px;
     border-radius: 7px;
+    
     transform: translateY(-12px);
 }
 
@@ -103,7 +104,7 @@ form>input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #21203f;
+    background-color: #241610;
     color: whitesmoke;
     border: none;
     cursor: pointer;
@@ -135,7 +136,7 @@ form>a.botao {
     padding-top: 7px;
     margin-top: 7px;
     background-color: #c9a3f8;
-    color: black;
+    color: rgb(0, 0, 0);
     border: 1px solid #21203f;
     border-radius: 3px;
     text-decoration: none;
@@ -155,7 +156,7 @@ form>a.botao>span {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #c89377, #21203f);
+        background-image: linear-gradient(to top, #159eed,#090929);
     }
 
     section#login {
@@ -167,7 +168,7 @@ form>a.botao>span {
         float: left;
         width: 30%;
         height: 100%;
-        background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+        background: #4b3c5d url(/assets/destaque_freefire_.jpg) no-repeat;
         background-size: cover;
         background-position: right bottom;
 
@@ -184,7 +185,7 @@ form>a.botao>span {
 
 @media screen and (min-width: 993px) {
     body {
-        background-image: linear-gradient(to top, #c89377, #21203f);
+        background-image: linear-gradient(to top, #158ced, #090818);
     }
 
     section#login {
@@ -197,7 +198,7 @@ form>a.botao>span {
         float: right;
         width: 50%;
         height: 100%;
-        background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+        background: #4b3c5d url(/assets/destaque_freefire_.jpg) no-repeat;
         background-size: cover;
         background-position: right center;
         /*  */
